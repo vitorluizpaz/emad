@@ -43,16 +43,30 @@
       margin: 10px 0;
       border-radius: 8px;
     }
+    form {
+      max-width: 500px;
+      margin: 20px auto;
+    }
     form button {
       width: 100%;
-      padding: 10px;
-      margin-top: 10px;
+      padding: 14px;
+      font-size: 1.1em;
       border: none;
-      border-radius: 4px;
+      border-radius: 8px;
       background-color: #CFAF8A;
       color: #000;
       font-weight: bold;
       cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    form button:hover {
+      background-color: #b99c78;
+    }
+    @media (max-width: 480px) {
+      form button {
+        font-size: 1.2em;
+        padding: 16px;
+      }
     }
     footer {
       text-align: center;
@@ -119,19 +133,17 @@
 
   <section>
     <h2>Inscreva-se para uma Aula Experimental Gratuita</h2>
-  <div style="background-color: #A05239; color: #F5E4C8; padding: 20px; text-align: left; font-weight: bold; border-radius: 8px; margin-top: 20px;">
-    ⚠️ AS AULAS DE BATERIA SÃO REALIZADAS APENAS ÀS TERÇAS, QUARTAS E SEXTAS-FEIRAS! ⚠️<br /><br />
-    Locais das aulas por dia da semana:<br />
-    - Segunda e quinta-feira: EMAD (Rua Evaldo Passing, 110 – Aririú, Palhoça)<br />
-    - Terça-feira: Projeto Tocando Vidas São José (R. Lindolfo Francisco de Melo, 102 – Fazenda Santo Antônio, São José – SC)<br />
-    - Quarta-feira: Projeto Tocando Vidas Bela Vista (R. João Francisco Barcelos Junior, 915, sala 19 – Bela Vista, Palhoça – SC)<br />
-    - Sexta-feira: Projeto Tocando Vidas Aririú (R. Pedro Thiesen Júnior, 306 – Aririú, Palhoça – SC)
-  </div>
+    <div style="background-color: #A05239; color: #F5E4C8; padding: 20px; text-align: left; font-weight: bold; border-radius: 8px; margin-top: 20px;">
+      ⚠️ AS AULAS DE BATERIA SÃO REALIZADAS APENAS ÀS TERÇAS, QUARTAS E SEXTAS-FEIRAS! ⚠️<br /><br />
+      Locais das aulas por dia da semana:<br />
+      - Segunda e quinta-feira: EMAD (Rua Evaldo Passing, 110 – Aririú, Palhoça)<br />
+      - Terça-feira: Projeto Tocando Vidas São José (R. Lindolfo Francisco de Melo, 102 – Fazenda Santo Antônio, São José – SC)<br />
+      - Quarta-feira: Projeto Tocando Vidas Bela Vista (R. João Francisco Barcelos Junior, 915, sala 19 – Bela Vista, Palhoça – SC)<br />
+      - Sexta-feira: Projeto Tocando Vidas Aririú (R. Pedro Thiesen Júnior, 306 – Aririú, Palhoça – SC)
+    </div>
 
-    <form>
-    <a href="https://escolademsicaalexandredariva.zohobookings.com/#/emad" target="_blank">
-  <button type="button">Quero fazer uma aula gratuita</button>
-</a>
+    <form action="https://escolademsicaalexandredariva.zohobookings.com/#/emad" target="_blank">
+      <button type="submit">Quero fazer uma aula gratuita</button>
     </form>
   </section>
 
