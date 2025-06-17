@@ -1,1 +1,1 @@
-# Site para Escola de Música Alexandre Dariva
+# A simple website for a music school.
