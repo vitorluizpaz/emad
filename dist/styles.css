@@ -118,6 +118,7 @@ h1 em, h2 em { color: var(--terracotta); font-style: italic; font-weight: 500; }
 .light-heading h2 em { color: var(--copper); }
 .light-heading .heading-aside { color: rgba(246,232,209,.62); }
 .price-grid { position: relative; z-index: 1; display: grid; grid-template-columns: repeat(3, 1fr); gap: 15px; margin-top: 64px; }
+.price-grid.single-price { grid-template-columns: minmax(0, 760px); }
 .price-card { position: relative; min-height: 350px; padding: 28px 27px; border: 1px solid var(--white-line); background: rgba(246,232,209,.035); transition: transform .3s ease, background .3s ease; }
 .price-card:hover { transform: translateY(-6px); background: rgba(246,232,209,.08); }
 .price-card-highlight { background: var(--terracotta); border-color: var(--terracotta); box-shadow: 0 20px 45px rgba(0,0,0,.17); }
